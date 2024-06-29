@@ -1,0 +1,51 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    background-color: rgb(12, 10, 12);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    color: white;
+  }
+  
+  main {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    padding: 20px;
+  }
+  
+  .column {
+    border: 2px solid rgb(109, 84, 84);
+    min-height: 300px;
+    min-width: 300px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 20px;
+  }
+  
+  .column > h3 {
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .column > p {
+    padding: 8px;
+    background-color: rgb(161, 148, 133);
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+  .column > form > input {
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+  }
